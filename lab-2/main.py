@@ -33,8 +33,8 @@ print("==================================================")
 # --------------------------------------------------
 
 student_name = "Sheikh Muhammad Shameem"
-student_id = "PY2026-001"
-department = "Electrical and Electronic Engineering"
+student_id = "PY260553"
+department = " Applied Mathematics and Big data science"
 
 print("\nTask 1 – Student Information")
 print("Name:", student_name)
