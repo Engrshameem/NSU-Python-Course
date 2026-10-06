@@ -186,7 +186,7 @@ print()
 # ==============================================================================
 # Description: Calculates the factorial of a given positive integer.
 
-print("Task-1")
+print("Task-10")
 
 def calculate_factorial(n: int) -> int:
     result = 1

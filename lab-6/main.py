@@ -1,18 +1,19 @@
-NSU Python - Lab 06
-Practice Topics: Function are Object, Function as an Argument, Lamda Expretion, 
-                 Sorted(), Short() vs Shorted()Desending Order, Key Parameters, 
-                 Case Insentive Shorting, Shorting Tuples,Filtering Values, 
-                 Filter()+lambda, Map(), Iterator+list, 
+# NSU Python - Lab 06
+# Practice Topics: Function are Object, Function as an Argument, Lamda Expretion, 
+                #  Sorted(), Short() vs Shorted()Desending Order, Key Parameters, 
+                #  Case Insentive Shorting, Shorting Tuples,Filtering Values, 
+                #  Filter()+lambda, Map(), Iterator+list, 
 
 
-Complite Tasks 1-15.
-Use only concepts covered in Lecture 05 and earlier lecture.
+# Complite Tasks 1-15.
+# Use only concepts covered in Lecture 05 and earlier lecture.
 
 
 
-------------------------------------------
-Task 1 - Function are Object
-------------------------------------------
+# Task 1 - Function are Object
+
+print("Task-1")
+
 def calculate_power(voltage, current):
     power = voltage * current
     return power
@@ -24,9 +25,12 @@ result = power_function(220, 5)
 print("Voltage:", 220, "V")
 print("Current:", 5, "A")
 print("Electrical Power:", result, "W") 
--------------------------------------
-Task 02 
------------------------------------------- 
+
+# Task 02 
+
+print("Task-2")
+
+
 def calculate_power(voltage, current):
     return voltage * current
 
@@ -36,7 +40,10 @@ def display_power(function, voltage, current):
 
 display_power(calculate_power, 230, 4)
 
-Task 03
+# Task 03
+
+print("Task-3")
+
 
 voltage = 120
 current = 4
@@ -49,7 +56,10 @@ print("Voltage:", voltage, "V")
 print("Current:", current, "A")
 print("Resistance:", resistance, "Ohm")
 
-Task 04
+# Task 04
+
+print("Task-4")
+
 
 voltages = [220, 12, 110, 24, 5, 48]
 
@@ -58,7 +68,11 @@ sorted_voltages = sorted(voltages)
 print("Original Voltages:", voltages)
 print("Sorted Voltages:", sorted_voltages)
 
-Task 05
+# Task 05
+
+print("Task-5")
+
+
 
 currents = [10, 2, 8, 5, 15]
 
@@ -71,7 +85,10 @@ currents.sort()
 
 print("Using sort():", currents)
 
-Task 06
+# Task 06
+
+print("Task-6")
+
 currents = [5, 12, 3, 20, 8]
 
 descending_currents = sorted(currents, reverse=True)
@@ -79,7 +96,10 @@ descending_currents = sorted(currents, reverse=True)
 print("Current Values:", currents)
 print("Descending Order:", descending_currents)
 
-Task 07
+# Task 07
+
+print("Task-7")
+
 
 
 resistors = [
@@ -99,9 +119,12 @@ print("Sorted Resistors:")
 for resistor in sorted_resistors:
     print(resistor)
 
-    Task 08
+    # Task 08
 
-    components = [
+print("Task-8")
+
+
+components = [
     "Resistor",
     "capacitor",
     "TRANSISTOR",
@@ -119,9 +142,12 @@ print("Case-Insensitive Sorted List:")
 for component in sorted_components:
     print(component)
 
-    Task 09
+    # Task 09
 
-    students = [
+print("Task-9")
+
+
+students = [
     ("Rahim", 75),
     ("Karim", 88),
     ("Hasan", 65),
@@ -139,9 +165,12 @@ print("Students Sorted by Marks:")
 for student in sorted_students:
     print(student)
 
-    Task 10
+    # Task 10
 
-    voltages = [5, 12, 24, 48, 110, 220, 240]
+print("Task-10")
+
+
+voltages = [5, 12, 24, 48, 110, 220, 240]
 
 high_voltages = []
 
@@ -152,7 +181,10 @@ for voltage in voltages:
 print("Original Voltages:", voltages)
 print("High Voltages:", high_voltages)
 
-Task 11
+# Task 11
+
+print("Task-11")
+
 
 voltages = [5, 12, 24, 48, 110, 220, 240]
 
@@ -163,7 +195,10 @@ high_voltages = list(
 print("Original Voltages:", voltages)
 print("Filtered Voltages:", high_voltages)
 
-Task 12
+# Task 12
+
+print("Task-12")
+
 
 voltages = [5, 10, 15, 20]
 
@@ -174,7 +209,10 @@ double_voltages = list(
 print("Original Voltages:", voltages)
 print("Doubled Voltages:", double_voltages)
 
-Task 13
+# Task 13
+
+print("Task-13")
+
 
 components = [
     "Resistor",
@@ -191,7 +229,10 @@ print(next(component_iterator))
 print(next(component_iterator))
 
 
-Task 14
+# Task 14
+
+print("Task-14")
+
 
 components = [
     "Resistor",
@@ -205,7 +246,10 @@ component_iterator = iter(components)
 for component in component_iterator:
     print("Electronic Component:", component)
 
-Task 15
+# Task 15
+
+print("Task-14")
+
 
 components = [
     ("Resistor", 100),
