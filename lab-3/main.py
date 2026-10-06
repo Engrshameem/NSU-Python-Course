@@ -1,10 +1,14 @@
-""
+'''
 NSU Python - Lab 03
 Conditions and for Loops
 
 Complete Tasks 1-10.
 Use only concepts covered in Lecture 03.
-""
+'''
+
+"""
+
+"""
 
 # ==============================================================================
 # Task 1 - Resistor Tolerable Voltage Checker (EEE)
