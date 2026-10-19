@@ -245,8 +245,3 @@ except ValueError:
     print("Error: Invalid data found in the file.")
 
 
-
-
-
-
-
